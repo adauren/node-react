@@ -5,7 +5,7 @@ import Landing from "./components/layout/Landing";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Alert from "./components/layout/Alert";
-import loadUser from "./actions/auth";
+import { loadUser } from "./actions/auth";
 import setAuthToken from "./utils/setAuthToken";
 import Dashboard from "./components/dashboard/Dashboard";
 import PrivateRoute from "./components/routing/PrivateRoute";

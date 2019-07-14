@@ -1,6 +1,6 @@
 import axios from "axios";
 import { setAlert } from "./alert";
-import { GET_PROFILE, PROFILE_ERROR } from "./types";
+import { GET_PROFILE, PROFILE_ERROR, UPDATE_PROFILE } from "./types";
 
 // Get current users profile
 export const getCurrentProfile = () => async dispatch => {
@@ -59,7 +59,7 @@ export const createProfile = (
 
 // Add Experience
 
-const addExperience = (formData, history) => async dispatch => {
+export const addExperience = (formData, history) => async dispatch => {
   try {
     const config = {
       headers: {
@@ -92,7 +92,7 @@ const addExperience = (formData, history) => async dispatch => {
 
 // Add Education
 
-const addEducation = (formData, history) => async dispatch => {
+export const addEducation = (formData, history) => async dispatch => {
   try {
     const config = {
       headers: {

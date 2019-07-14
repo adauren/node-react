@@ -8,7 +8,7 @@ import DashboardActions from "./DashboardActions";
 
 const Dashboard = ({
   getCurrentProfile,
-  auth: { USER },
+  auth: { user },
   profile: { profile, loading }
 }) => {
   useEffect(() => {
