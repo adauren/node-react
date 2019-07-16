@@ -17,7 +17,7 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
       ) : (
         <Fragment>
           <h1 className="large text-primary">Developers</h1>
-          <p className="lead">
+          <div className="lead">
             <i className="fab fa-connectdevelop" />
             <div className="profiles">
               {profiles.length > 0 ? (
@@ -28,7 +28,7 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
                 <h4>No profiles found...</h4>
               )}
             </div>
-          </p>
+          </div>
         </Fragment>
       )}
     </Fragment>

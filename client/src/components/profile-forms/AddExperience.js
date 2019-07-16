@@ -92,7 +92,13 @@ const AddExperience = ({ addExperience, history }) => {
         </div>
         <div class="form-group">
           <h4>To Date</h4>
-          <input type="date" name="to" value={to} onChange={e => onChange(e)} />
+          <input
+            type="date"
+            name="to"
+            value={to}
+            onChange={e => onChange(e)}
+            disabled={toDataDisabled ? "disabled" : ""}
+          />
         </div>
         <div class="form-group">
           <textarea
@@ -102,7 +108,6 @@ const AddExperience = ({ addExperience, history }) => {
             placeholder="Job Description"
             value={description}
             onChange={e => onChange(e)}
-            disabled={toDataDisabled ? "disabled" : ""}
           />
         </div>
         <input type="submit" class="btn btn-primary my-1" />

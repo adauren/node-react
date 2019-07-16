@@ -75,7 +75,7 @@ const CreateProfile = ({ createProfile, history }) => {
             type="text"
             placeholder="Company"
             name="company"
-            value={status}
+            value={company}
             onChange={e => onChange(e)}
           />
           <small className="form-text">
