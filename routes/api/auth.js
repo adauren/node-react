@@ -36,7 +36,7 @@ router.post(
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {
-      return res.send(400).json({ errors: errors.array() });
+      return res.sendStatus(400).json({ errors: errors.array() });
     }
 
     const { email, password } = req.body;
