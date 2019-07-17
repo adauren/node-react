@@ -42,7 +42,8 @@ const PostItem = ({
               type="button"
               class="btn btn-light"
             >
-              <i class="fas fa-thumbs-down" />
+              <i class="fas fa-thumbs-down" />{" "}
+              {likes.length > 0 && <span>{likes.length}</span>}
             </button>
             <Link to={`/posts/${_id}`} class="btn btn-primary">
               Discussion{" "}
