@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://robin123:robin123@devnetwork-c6ybl.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecret",
+  "githubClientId": "1540a05faa6334fee701",
+  "githubSecret": "2cfccebd48f17f79ebc096a0ca122669915f2c12"
+}
