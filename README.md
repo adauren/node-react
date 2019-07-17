@@ -5,10 +5,12 @@ mern stack application
 To install all the dependencies.
 
 # npm run start
-Open http://localhost:5000 to view it in the browser.
+To run client side
+Open http://localhost:3000 to view it in the browser.
 
 # npm run server
-To run the app in the development mode with nodemon.
+To run server side
 Open http://localhost:5000 to view it in the browser.
 
-The page will reload if you make edits.
+# npm run dev
+To run both client and server side
